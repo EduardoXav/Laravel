@@ -13,7 +13,6 @@ class CreateTableReservationVehicule extends Migration
      */
     public function up()
     {
-            //
         Schema::create('table_reservation_vehicule', function(bluePrint $table){
             $table -> String('reservation_id')
                    -> foreign('reservation_id')

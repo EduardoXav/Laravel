@@ -15,7 +15,7 @@ class CreateDossierLocationsTable extends Migration
     {
         Schema::create('dossier_locations', function (Blueprint $table) {
             $table->id('idlocation');
-            $table->boolean('paye');
+            $table->Boolean('paye');
         });
     }
 
